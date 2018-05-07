@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab: Sorting and Searching Algorithms", "Lab: Sorting and Searching Algorithms", "{0E0BF060-769B-4540-9B78-5694D0495A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_MergeSort", "_01_MergeSort\_01_MergeSort.csproj", "{E234A401-2571-4F1D-B415-7FA6470144DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_03_ImplementBinarySearch", "_03_ImplementBinarySearch\_03_ImplementBinarySearch.csproj", "{D8D0CBE8-BDF1-41D2-A275-EFEC6A0D73DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E234A401-2571-4F1D-B415-7FA6470144DD} = {0E0BF060-769B-4540-9B78-5694D0495A75}
+		{D8D0CBE8-BDF1-41D2-A275-EFEC6A0D73DB} = {0E0BF060-769B-4540-9B78-5694D0495A75}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E234A401-2571-4F1D-B415-7FA6470144DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E234A401-2571-4F1D-B415-7FA6470144DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E234A401-2571-4F1D-B415-7FA6470144DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E234A401-2571-4F1D-B415-7FA6470144DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D0CBE8-BDF1-41D2-A275-EFEC6A0D73DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D0CBE8-BDF1-41D2-A275-EFEC6A0D73DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D0CBE8-BDF1-41D2-A275-EFEC6A0D73DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D0CBE8-BDF1-41D2-A275-EFEC6A0D73DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
